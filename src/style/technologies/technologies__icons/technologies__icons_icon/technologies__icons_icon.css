@@ -1,0 +1,9 @@
+@import url(./technologies__icons_icon_icon/technologies__icons_icon_img.css);
+@import url(./technologies__icons_icon_title/technologies__icons_icon_title.css);
+
+.technologies__icons_icon{
+margin-right: 41px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}

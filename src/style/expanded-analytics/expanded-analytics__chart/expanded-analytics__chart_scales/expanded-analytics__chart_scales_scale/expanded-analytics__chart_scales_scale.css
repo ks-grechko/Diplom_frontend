@@ -1,0 +1,30 @@
+.expanded-analytics__chart_scales_scale{
+height: 24px;
+width: 184px;
+margin-bottom: 56px;
+padding-left: 6px;
+background-color: #2F71E5;
+font-family: 'Roboto Regular';
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 16px;
+color: #FFFFFF;
+align-items: center;
+display: flex;
+align-items: center;
+}
+
+@media all and (min-width: 433px) and (max-width: 768px) {
+  .expanded-analytics__chart_scales_scale{
+    margin-left: 13px;
+  }
+}
+
+@media all and (max-width: 432px) {
+  .expanded-analytics__chart_scales_scale{
+    width: 46px;
+    margin-left: 16px;
+    margin-bottom: 24px;
+  }
+}

@@ -1,0 +1,22 @@
+@import url(./search-results__cards_card_img/search-results__cards_card_img.css);
+@import url(./search-results__cards_card_date/search-results__cards_card_date.css);
+@import url(./search-results__cards_card_title/search-results__cards_card_title.css);
+@import url(./search-results__cards_card_text/search-results__cards_card_text.css);
+@import url(./search-results__cards_card_source/search-results__cards_card_source.css);
+
+
+.search-results__cards_card{
+  width: 400px;
+  height: 576px;
+  margin-bottom: 16px;
+  margin-right: 16px;
+  background: #FFFFFF;
+  border-radius: 16px;
+}
+
+@media all and (min-width: 320px) and (max-width: 768px) {
+  .search-results__cards_card{
+    width: 224px;
+    height: 420px;
+  }
+}

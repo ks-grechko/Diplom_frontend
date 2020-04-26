@@ -1,0 +1,28 @@
+@import url(./header__site-name/header__site-name.css);
+@import url(./header__buttons/header__buttons.css);
+@import url(./header-about-page__buttons_about-button/header-about-page__buttons_about-button.css);
+@import url(./header-about-page__buttons_main-button/header-about-page__buttons_main-button.css);
+
+
+.header{
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+
+@media all and (min-width: 768px) and (max-width: 1440px) {
+  .header{
+    height: 64px;
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .header{
+    height: 56px;
+  }
+}

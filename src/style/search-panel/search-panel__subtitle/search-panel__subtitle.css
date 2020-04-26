@@ -1,0 +1,32 @@
+.search-panel__subtitle{
+  width: 608px;
+  height: 48px;
+  margin-top: 32px;
+  margin-bottom: 0px;
+  font-family: 'Roboto Regular';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFF;
+  position: relative;
+  z-index: 2;
+}
+
+@media all and (min-width: 471px) and (max-width: 768px) {
+  .search-panel__subtitle{
+    width: 452px;
+    height: 72px;
+    margin: 16px 160px 0px 156px;
+  }
+}
+
+@media all and (max-width: 470px){
+  .search-panel__subtitle{
+    width: 288px;
+    height: 130px;
+    margin: 16px 160px 0px 156px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+}

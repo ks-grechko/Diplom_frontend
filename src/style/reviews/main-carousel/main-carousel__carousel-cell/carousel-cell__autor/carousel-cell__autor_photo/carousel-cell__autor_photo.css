@@ -1,0 +1,14 @@
+.carousel-cell__autor_photo{
+width: 64px;
+height: 64px;
+border-radius: 1000px;
+margin-left: 24px;
+}
+
+@media all and (min-width: 320px) and (max-width: 768px) {
+  .carousel-cell__autor_photo{
+    width: 48px;
+    height: 48px;
+    padding-left: 80px;
+  }
+}

@@ -1,0 +1,11 @@
+.reviews__arrow-right{
+  position: absolute;
+  top: 306px;
+  right: 24px;
+}
+
+@media all and (max-width: 320px){
+  .reviews__arrow-right{
+  display: none;
+  }
+}

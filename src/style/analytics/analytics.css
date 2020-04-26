@@ -1,0 +1,21 @@
+@import url(./analytics__navigation/analytics__navigation.css);
+@import url(./analytics__title/analytics__title.css);
+@import url(./analytics__for-week/analytics__for-week.css);
+
+.analytics{
+height: 346px;
+}
+
+@media all and (min-width: 320px) and (max-width: 768px) {
+  .analytics{
+    margin-left: 40px;
+    height: 270px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .analytics{
+    height: 176px;
+    margin-left: 16px;
+  }
+}
