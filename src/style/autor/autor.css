@@ -1,0 +1,15 @@
+@import  url(./author__photo/author__photo.css);
+@import url(./autor__about/autor__about.css);
+
+.autor{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .autor{
+    flex-wrap: wrap;
+
+  }
+}

@@ -1,0 +1,35 @@
+.search-panel__title{
+  width: 608px;
+  height: 128px;
+  margin-top: 160px;
+  margin-bottom: 0px;
+  font-family: 'Roboto Slab Regular';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 64px;
+  color: #FFF;
+  position: relative;
+  z-index: 2;
+
+}
+
+@media all and (min-width: 471px) and (max-width: 786px) {
+  .search-panel__title{
+    margin-top: 104px;
+    width: 452px;
+    height: 80px;
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+
+@media all and (max-width: 470px){
+  .search-panel__title{
+    width: 285px;
+    height: 80px;
+    margin-top: 86px;
+    font-size: 36px;
+    line-height: 40px;
+  }
+}

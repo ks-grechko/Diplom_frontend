@@ -1,0 +1,32 @@
+@import url(./search-panel__search_img/search-panel__search_img.css);
+@import url(./search-panel__title/search-panel__title.css);
+@import url(./search-panel__subtitle/search-panel__subtitle.css);
+@import url(./search-panel__search/search-panel__search.css);
+
+
+.search-panel{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 567px;
+  background-image: url("../../images/search.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: -80px;
+  z-index: 1px;
+}
+
+@media all and (min-width: 471px) and (max-width: 786px) {
+  .search-panel{
+    height: 400px;
+  }
+}
+
+@media all and (max-width:470px){
+  .search-panel{
+  height: 536px;
+  }
+}

@@ -1,0 +1,17 @@
+@import url(./search-results__header_title/search-results__header_title.css);
+@import url(./search-results__header_subtitle/search-results__header_subtitle.css);
+
+.search-results__header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 40px;
+margin-left: 40px;
+margin-right: 40px;
+}
+
+@media all and (max-width: 320px){
+  .search-results__header{
+    display: block;
+  }
+}

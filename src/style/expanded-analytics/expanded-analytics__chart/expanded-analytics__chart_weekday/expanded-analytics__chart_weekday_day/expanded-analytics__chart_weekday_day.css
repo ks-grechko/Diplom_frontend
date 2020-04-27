@@ -1,0 +1,17 @@
+.expanded-analytics__chart_weekday_day{
+  height: 24px;
+  margin-bottom: 56px;
+  margin-top: 0px;
+  font-family: 'Roboto Regular';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #1A1B22;
+}
+
+@media all and (max-width: 432px) {
+  .expanded-analytics__chart_weekday_day{
+    margin-bottom: 24px;
+  }
+}
+
