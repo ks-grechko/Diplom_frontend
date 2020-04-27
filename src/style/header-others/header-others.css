@@ -1,8 +1,0 @@
-@import url(./header-others__site-name/header-others__site-name.css);
-@import url(./header-others__buttons_main-button/header-others__buttons_main-button.css);
-@import url(./header-others__buttons_about-button/header-others__buttons_about-button.css);
-
-
-.header-others{
-  box-shadow: inset 0px -1px 0px #D1D2D6;
-}

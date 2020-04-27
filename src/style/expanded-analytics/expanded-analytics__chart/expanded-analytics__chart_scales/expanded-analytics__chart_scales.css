@@ -1,7 +1,0 @@
-@import url(./expanded-analytics__chart_scales_scale/expanded-analytics__chart_scales_scale.css);
-
-@media all and (max-width: 432px) {
-  .expanded-analytics__chart_scales{
-    margin-top: 18px;
-  }
-}

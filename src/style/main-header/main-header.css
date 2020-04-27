@@ -1,8 +1,0 @@
-@import url(./main-header__site-name/main-header__site-name.css);
-@import url(./main-header__buttons_main-button/main-header__buttons_main-button.css);
-@import url(./main-header__buttons_about-button/main-header__buttons_about-button.css);
-
-
-.main-header{
-box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
-}
