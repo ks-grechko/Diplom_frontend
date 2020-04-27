@@ -1,0 +1,16 @@
+@import url(./reviews__header/reviews__header.css);
+@import url(./reviews__arrow-left/reviews__arrow-left.css);
+@import url(./reviews__arrow-right/reviews__arrow-right.css);
+@import url(./main-carousel/main-carousel.css);
+
+.reviews{
+  position: relative;
+  height: 606px;
+  background-color: #F5F6F7;
+}
+
+@media all and (min-width: 320px) and (max-width: 768px) {
+  .reviews{
+    height: 568px;
+  }
+}

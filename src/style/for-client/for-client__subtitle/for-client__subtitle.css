@@ -1,0 +1,24 @@
+@import url(./for-client__subtitle_text/for-client__subtitle_text.css);
+
+.for-client__subtitle{
+  margin-top: 24px;
+  margin-left: 104px;
+  margin-bottom: 94px;
+}
+
+@media all and (min-width: 321px) and (max-width: 768px) {
+  .for-client__subtitle{
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+@media all and (max-width: 320px){
+  .for-client__subtitle{
+
+  margin-left: 16px;
+  margin-bottom: 16px;
+  font-size: 18px;
+  line-height: 24px;
+  }
+}

@@ -1,0 +1,23 @@
+@import url(./expanded-analytics__range_number/expanded-analytics__range_number.css);
+@import url(./expanded-analytics__range_number_first/expanded-analytics__range_number_first.css);
+
+.expanded-analytics__range{
+margin-left: 104px;
+margin-right: 104px;
+display: flex;
+border-top: 1px solid #1A1B22;
+}
+
+@media all and (min-width: 433px) and (max-width: 768px) {
+  .expanded-analytics__range{
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+@media all and (max-width: 432px) {
+  .expanded-analytics__range{
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
