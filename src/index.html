@@ -19,12 +19,10 @@
     </header>
                                     <!-- Область с поисковой строкой и картинкой -->
     <section class="search-panel">
-      <!-- УБРАТЬ В CSS ЭТО -->
-      <!-- <img class="search-panel__img" src="images/search.png" alt="включенный смартфон в руках и на фоне зеленое растение"> -->
       <h1 class="search-panel__title">Что в мире <br>творится?</h1>
       <h2 class="search-panel__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</h2>
       <form class="search-panel__search">
-        <input class="search-panel__search_search-input" type="search" name="search" id="search" placeholder="Введите тему новости">
+        <input class="search-panel__search_search-input" type="search" name="search" id="search" placeholder="Введите тему новости" pattern="^[\wа-яА-Я]{1,}" required>
         <button name="search-button" class="search-panel__search_search-button">Искать</button>
       </form>
     </section>
