@@ -1,9 +1,9 @@
+const webpack = require("webpack");
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const WebpackMd5Hash = require("webpack-md5-hash");
 const OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin");
-const webpack = require("webpack");
 const isDev = process.env.NODE_ENV === 'development';
 
 module.exports = {
@@ -19,37 +19,40 @@ module.exports = {
 
   module: {
     rules: [
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: {
-          loader: "babel-loader",
-        },
-      },
-      {
-        test: /\.css$/,
-        use: [
-          isDev ? "style-loader" :{loader: MiniCssExtractPlugin.loader,
-            options: {
-              publicPath: "../",
-          }},
-          "css-loader", 
-          "postcss-loader",
-        ],
-      },
-      {
-        test: /\.(png|jpg|gif|ico|svg)/,
-        use: [
-            'file-loader?name=./images/[name].[ext]',
-            {
-              loader: "image-webpack-loader",
-            },
-        ]
+      { 
+        test: /\.js$/, 
+        use: { loader: "babel-loader" }, 
+        exclude: /node_modules/ 
     },
-      {
-        test: /\.(eot|ttf|woff|woff2)/,
-        loader: 'file-loader?name=./vendor/fonts/[name].[ext]'
-      }
+    {
+      test: /\.(eot|ttf|woff|woff2)$/,
+      use: [
+          {
+              loader: 'file-loader',
+              options: {
+                  name: 'vendor/[name].[ext]'
+              }
+          }
+      ]
+  },
+  {
+      test: /\.(png|jpg|gif|ico|svg)$/,
+      use: [
+          'file-loader?name=./images/[name].[ext]',
+          {
+              loader: 'image-webpack-loader',
+              options: {
+                  bypassOnDebug: true,
+                  disable: false,
+                  esModule: false
+              }
+          }
+      ]
+  },
+  {
+      test: /\.css$/,
+          use: [(isDev ? 'style-loader' : MiniCssExtractPlugin.loader), 'css-loader', 'postcss-loader']
+  }
     ],
   },
   plugins: [
