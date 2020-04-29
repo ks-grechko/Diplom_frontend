@@ -38,17 +38,16 @@ module.exports = {
         ],
       },
       {
-        test: /\.(png|jpg|gif|ico|svg)$/,
+        test: /\.(png|jpg|gif|ico|svg)/,
         use: [
             'file-loader?name=./images/[name].[ext]',
             {
-                loader: 'image-webpack-loader',
-                options: {}
+              loader: "image-webpack-loader",
             },
         ]
     },
       {
-        test: /\.(eot|ttf|woff|woff2)$/,
+        test: /\.(eot|ttf|woff|woff2)/,
         loader: 'file-loader?name=./vendor/fonts/[name].[ext]'
       }
     ],
