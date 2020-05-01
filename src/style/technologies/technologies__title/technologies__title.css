@@ -1,5 +1,4 @@
 .technologies__title{
-  width: 344px;
   height: 92px;
   margin-left: 104px;
   margin-top: 80px;
@@ -11,18 +10,23 @@
   line-height: 46px;
   color: #1A1B22;
 }
-
-@media all and (min-width: 321px) and (max-width: 768px) {
+@media all and (min-width: 769px) and (max-width: 1026px) {
   .technologies__title{
-    padding-top: 40px;
-    margin-left: 40px;
-    margin-bottom: 40px;
+    margin-left: 104px;
+    margin-bottom: 20px;
   }
 }
 
-@media all and (max-width: 320px){
+@media all and (min-width: 431px) and (max-width: 768px) {
   .technologies__title{
-    width: 288px;
+    padding-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+}
+
+@media all and (max-width: 430px){
+  .technologies__title{
     height: 80px;
     font-size: 30px;
     line-height: 40px;

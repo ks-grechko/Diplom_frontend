@@ -17,13 +17,13 @@
   .search-panel__subtitle{
     width: 452px;
     height: 72px;
-    margin: 16px 160px 0px 156px;
+    margin: 16px 10px 0px 10px;
   }
 }
 
 @media all and (max-width: 470px){
   .search-panel__subtitle{
-    width: 288px;
+    width: 278px;
     height: 130px;
     margin: 16px 160px 0px 156px;
     font-size: 20px;

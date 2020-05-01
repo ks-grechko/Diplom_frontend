@@ -8,15 +8,23 @@
 
 }
 
-@media all and (min-width: 601px) and (max-width: 768px) {
+@media all and (min-width: 768px) and (max-width: 1026px) {
   .technologies__icons{
-    width: 656px;
-    margin-left: 56px;
+    margin-left: 104px;
+    width: 570px;
     padding-bottom: 49px;
   }
 }
+@media all and (min-width: 421px) and (max-width: 767px){
+  .technologies__icons{
+  flex-wrap: wrap;
+  width: 288px;
+  margin-left: 40px;
+  padding-bottom: 40px;
+  }
+}
 
-@media all and (max-width: 600px){
+@media all and (max-width: 420px){
   .technologies__icons{
   flex-wrap: wrap;
   width: 288px;

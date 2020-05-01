@@ -15,5 +15,7 @@ color: #1A1B22;
   .carousel-cell__comment{
     width: 246px;
     height: 88px;
+    margin-left: 16px;
+    margin-right: 26px;
   }
 }

@@ -5,10 +5,11 @@
 margin-left: 104px;
 margin-right: 104px;
 display: flex;
+justify-content: space-between;
 border-top: 1px solid #1A1B22;
 }
 
-@media all and (min-width: 433px) and (max-width: 768px) {
+@media all and (min-width: 433px) and (max-width: 1022px) {
   .expanded-analytics__range{
     margin-left: 40px;
     margin-right: 40px;

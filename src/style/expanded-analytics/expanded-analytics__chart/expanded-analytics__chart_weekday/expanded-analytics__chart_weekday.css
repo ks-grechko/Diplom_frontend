@@ -7,7 +7,7 @@ display: flex;
 flex-direction: column;
 }
 
-@media all and (min-width: 433px) and (max-width: 768px) {
+@media all and (min-width: 433px) and (max-width: 1022px) {
   .expanded-analytics__chart_weekday{
     margin-left: 40px;
   }
