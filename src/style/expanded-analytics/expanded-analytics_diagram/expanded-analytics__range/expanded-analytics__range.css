@@ -9,10 +9,6 @@ margin-bottom: 8px;
 margin-left: 104px;
 display: flex;
 justify-content: space-between;
-<<<<<<< HEAD:src/style/expanded-analytics/expanded-analytics_diagram/expanded-analytics__range/expanded-analytics__range.css
-=======
-border-top: 1px solid #1A1B22;
->>>>>>> 2355de84b8b40ab8e19848b09c39c0b15ac85b6d:src/style/expanded-analytics/expanded-analytics__range/expanded-analytics__range.css
 }
 
 @media all and (min-width: 433px) and (max-width: 1022px) {

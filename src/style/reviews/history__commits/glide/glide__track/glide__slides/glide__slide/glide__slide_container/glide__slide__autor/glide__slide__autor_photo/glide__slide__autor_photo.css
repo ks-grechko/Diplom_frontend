@@ -1,13 +1,9 @@
 .glide__slide__autor_photo{
 width: 64px;
 height: 64px;
-<<<<<<< HEAD:src/style/reviews/history__commits/glide/glide__track/glide__slides/glide__slide/glide__slide_container/glide__slide__autor/glide__slide__autor_photo/glide__slide__autor_photo.css
 /* border-radius: 1000px; */
 background-size: cover;
 background-repeat: no-repeat;
-=======
-border-radius: 1000px;
->>>>>>> 2355de84b8b40ab8e19848b09c39c0b15ac85b6d:src/style/reviews/main-carousel/main-carousel__carousel-cell/carousel-cell__autor/carousel-cell__autor_photo/carousel-cell__autor_photo.css
 }
 
 @media all and (min-width: 320px) and (max-width: 768px) {

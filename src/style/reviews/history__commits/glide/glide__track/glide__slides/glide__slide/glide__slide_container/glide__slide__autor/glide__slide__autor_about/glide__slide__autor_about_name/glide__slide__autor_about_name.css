@@ -1,8 +1,5 @@
-<<<<<<< HEAD:src/style/reviews/history__commits/glide/glide__track/glide__slides/glide__slide/glide__slide_container/glide__slide__autor/glide__slide__autor_about/glide__slide__autor_about_name/glide__slide__autor_about_name.css
+
 .glide__slide__autor_about_name{
-=======
-.carousel-cell__autor_about_name{
->>>>>>> 2355de84b8b40ab8e19848b09c39c0b15ac85b6d:src/style/reviews/main-carousel/main-carousel__carousel-cell/carousel-cell__autor/carousel-cell__autor_about/carousel-cell__autor_about_name/carousel-cell__autor_about_name.css
   height: 30px;
   margin: 0px;
   font-family: Roboto Slab Regular;
@@ -24,12 +21,8 @@
 
 
 @media all and (min-width: 320px) and (max-width: 768px) {
-<<<<<<< HEAD:src/style/reviews/history__commits/glide/glide__track/glide__slides/glide__slide/glide__slide_container/glide__slide__autor/glide__slide__autor_about/glide__slide__autor_about_name/glide__slide__autor_about_name.css
   .glide__slide__autor_about_name{
     width: 200px;
-=======
-  .carousel-cell__autor_about_name{
->>>>>>> 2355de84b8b40ab8e19848b09c39c0b15ac85b6d:src/style/reviews/main-carousel/main-carousel__carousel-cell/carousel-cell__autor/carousel-cell__autor_about/carousel-cell__autor_about_name/carousel-cell__autor_about_name.css
     height: 30px;
     font-size: 20px;
     line-height: 30px;
