@@ -2,15 +2,15 @@
 @import url(./search-panel__title/search-panel__title.css);
 @import url(./search-panel__subtitle/search-panel__subtitle.css);
 @import url(./search-panel__search/search-panel__search.css);
-
+@import url(./search-panel__search/popup__error/popup__error.css);
 
 .search-panel{
+  height: 567px;
+  background-image: url('../../images/search.jpg');
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 567px;
-  background-image: url("../../images/search.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

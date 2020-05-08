@@ -7,3 +7,24 @@ display: flex;
 flex-direction: column;
 align-items: center;
 }
+
+@media all and (min-width: 945px) and (max-width: 962px) {
+    .technologies__icons_icon{
+        margin-right: 15px;
+        display: flex;
+    }
+  }
+  @media all and (min-width: 725px) and (max-width: 962px) {
+    .technologies__icons_icon{
+        margin-right: 7px;
+        display: flex;
+    }
+  }
+
+
+  @media all and (min-width: 400px) and (max-width: 724px) {
+    .technologies__icons_icon{
+        margin-right: 7px;
+        display: flex;
+    }
+  }

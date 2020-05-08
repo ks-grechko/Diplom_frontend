@@ -12,10 +12,10 @@
 
 @media all and (max-width: 320px){
   .reviews__header_links{
-    width: 288px;
+    width: 278px;
     height: 56px;
     position: absolute;
-    top: 434px;
+    top: 480px;
     left: 16px;
     right: 16px;
     border: 1px solid #1A1B22;

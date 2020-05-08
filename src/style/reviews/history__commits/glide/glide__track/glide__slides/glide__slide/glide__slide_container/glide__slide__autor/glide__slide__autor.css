@@ -1,0 +1,17 @@
+@import url(./glide__slide__autor_about/glide__slide__autor_about.css);
+@import url(./glide__slide__autor_photo/glide__slide__autor_photo.css);
+
+.glide__slide__autor{
+display: flex;
+justify-content: flex-start;
+margin-left: 24px;
+margin-bottom: 17px;
+}
+
+@media all and (min-width: 320px) and (max-width: 868px) {
+    .glide__slide__autor{
+        display:  block;
+        width: 336px;
+        height: 242px;
+    }
+  }

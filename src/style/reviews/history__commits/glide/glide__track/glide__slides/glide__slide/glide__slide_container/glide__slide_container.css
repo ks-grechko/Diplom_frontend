@@ -1,0 +1,18 @@
+@import url(./glide__slide__autor/glide__slide__autor.css);
+@import url(./glide__slide__comment/glide__slide__comment.css);
+@import url(./glide__slide__date/glide__slide__date.css);
+
+.glide__slide_container{
+    max-width: 400px;
+    margin: auto;
+  }
+  @media all and (min-width: 321px) and (max-width: 768px) {
+    .glide__slide_container {
+      max-width: 296px;
+    }
+  }
+  @media all and (max-width: 320px) {
+    .glide__slide_container {
+      max-width: 246px;
+    }
+  }

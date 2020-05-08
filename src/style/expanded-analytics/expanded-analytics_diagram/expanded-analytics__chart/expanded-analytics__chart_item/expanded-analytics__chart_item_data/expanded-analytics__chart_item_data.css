@@ -1,0 +1,13 @@
+@import url(./expanded-analytics__chart_item_data_scale/expanded-analytics__chart_item_data_scale.css);
+
+.expanded-analytics__chart_item_data{
+    width: calc(1136 / 1240 * 100%);
+    display: flex;
+    align-items: center;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #fff;  
+}

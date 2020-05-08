@@ -1,0 +1,11 @@
+.popup__error{
+    width: calc(100% - 50px);
+	padding: 2px 19px;
+	border-radius: 100px;
+    color: #ffffff;
+    /* background-color: #DC143C; */
+	font-size: 16px;
+	position: absolute;
+	top: -25px;
+	left: 5px;
+}

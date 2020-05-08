@@ -1,0 +1,8 @@
+@import url(./expanded-analytics__chart_item_data_number/expanded-analytics__chart_item_data_number.css);
+
+.expanded-analytics__chart_item_data_scale{
+    display: flex;
+  align-items: center;
+  background-color: #2f71e5;
+  height: 24px;
+}

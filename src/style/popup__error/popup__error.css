@@ -1,0 +1,9 @@
+.popup__error {
+    display: block;
+  position: absolute;
+  color: red;
+  height: 14px;
+  font-family: Roboto Regular;
+  bottom: -35px;
+  font-size: 12px;
+}

@@ -1,7 +1,7 @@
 .reviews__header_title{
 width: 712px;
 height: 46px;
-font-family: 'Roboto Slab Regular';
+font-family: Roboto Slab Regular;
 font-style: normal;
 font-weight: normal;
 font-size: 40px;
@@ -9,7 +9,7 @@ line-height: 46px;
 color: #1A1B22;
 }
 
-@media all and (min-width: 320px) and (max-width: 768px) {
+@media all and (min-width: 421px) and (max-width: 768px) {
   .reviews__header_title{
     width: 336px;
     height: 68px;
@@ -18,8 +18,12 @@ color: #1A1B22;
   }
 }
 
-@media all and (max-width: 320px){
+@media all and (max-width: 420px){
   .reviews__header_title{
+  width: 288px;
+  height: 120px;
   margin-top: 0px;
+  font-size: 30px;
+  line-height: 40px;
   }
 }

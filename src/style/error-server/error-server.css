@@ -1,0 +1,7 @@
+@import url(./error-server__message/error-server__message.css);
+
+
+.error-server{
+    display: none; 
+    margin-top: -120px;
+}

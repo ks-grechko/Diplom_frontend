@@ -1,13 +1,19 @@
-@import url(./expanded-analytics__title/expanded-analytics__title.css);
-@import url(./expanded-analytics__params/expanded-analytics__params.css);
-@import url(./expanded-analytics__range/expanded-analytics__range.css);
-@import url(./expanded-analytics__chart/expanded-analytics__chart.css);
-@import url(./expanded-analytics__range-footer/expanded-analytics__range-footer.css);
+@import url(./expanded-analytics_diagram/expanded-analytics_diagram.css);
 
 
 .expanded-analytics{
-
+  margin: auto;
+  padding-top: 80px;
   background: #F5F6F7;
 }
 
-
+@media all and (max-width: 768px) {
+  .expanded-analytics{
+    padding-top: 40px;
+  }
+}
+@media all and (max-width: 425px) {
+  .expanded-analytics {
+    padding-top: 24px;
+  }
+}

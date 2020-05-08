@@ -1,0 +1,14 @@
+@import url(./glide/glide.css);
+.history__commits{
+    height: 338px;
+    width: 100%;
+    /* padding-top: 64px; */
+}
+
+@media all and (max-width: 425px) {
+    .history__commits {
+      max-width: 90%;
+      margin: auto;
+      /* padding-top: 16px; */
+    }
+  }

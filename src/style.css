@@ -15,6 +15,10 @@
 @import url(./style/analytics/analytics.css);
 @import url(./style/expanded-analytics/expanded-analytics.css);
 @import url(./style/search-results/search-results.css);
+@import url(./style/popup__error/popup__error.css);
+@import url(./style/reviews/history__commits/history__commits.css);
+@import url(./style/error-server/error-server.css);
+
 
 .body {
 background-color: #fff;

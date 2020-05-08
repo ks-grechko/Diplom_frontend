@@ -1,0 +1,38 @@
+@import url(./glide__track/glide__track.css);
+
+/* 
+.glide {
+  width: 400px;
+  height: 288px;
+  margin-left: 16px;
+  top: 1922px;
+  background: #FFFFFF;
+  border-radius: 16px;
+}
+
+<<<<<<< HEAD:src/style/reviews/history__commits/glide/glide.css
+@media all and (min-width: 321px) and (max-width: 768px) {
+  .glide{
+=======
+@media all and (min-width: 421px) and (max-width: 768px) {
+  .main-carousel__carousel-cell{
+>>>>>>> 2355de84b8b40ab8e19848b09c39c0b15ac85b6d:src/style/reviews/main-carousel/main-carousel__carousel-cell/main-carousel__carousel-cell.css
+    width: 336px;
+    height: 242px;
+  }
+}
+
+<<<<<<< HEAD:src/style/reviews/history__commits/glide/glide.css
+@media all and (max-width: 320px){
+  .glide{
+  width: 288px;
+=======
+@media all and (max-width: 420px){
+  .main-carousel__carousel-cell{
+  width: 275px;
+>>>>>>> 2355de84b8b40ab8e19848b09c39c0b15ac85b6d:src/style/reviews/main-carousel/main-carousel__carousel-cell/main-carousel__carousel-cell.css
+  height: 264px;
+  margin-left: 16px;
+  margin-right: 16px;
+  }
+} */
