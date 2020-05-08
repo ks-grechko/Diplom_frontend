@@ -1,0 +1,17 @@
+@import url(./carousel-cell__autor_about/carousel-cell__autor_about.css);
+@import url(./carousel-cell__autor_photo/carousel-cell__autor_photo.css);
+
+.carousel-cell__autor{
+display: flex;
+justify-content: center;
+margin-top: 19px;
+}
+
+@media all and (max-width: 320px){
+    .carousel-cell__autor{
+    width: 260px;
+    height: 52px;
+    margin-left: 16px;
+    margin-right: 16px;
+    }
+  }

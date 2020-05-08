@@ -5,13 +5,17 @@
 margin-left: 104px;
 margin-right: 111px;
 padding-top: 72px;
+<<<<<<< HEAD
 margin-bottom: 64px;
+=======
+margin-bottom: 40px;
+>>>>>>> 2355de84b8b40ab8e19848b09c39c0b15ac85b6d
 display: flex;
 justify-content: space-between;
 align-items: center;
 }
 
-@media all and (min-width: 320px) and (max-width: 768px) {
+@media all and (min-width: 421px) and (max-width: 768px) {
   .reviews__header{
     margin-top: 40px;
     margin-left: 40px;
@@ -19,7 +23,7 @@ align-items: center;
   }
 }
 
-@media all and (max-width: 320px){
+@media all and (max-width: 420px){
   .reviews__header{
     margin: 0px 16px  16px 16px;
     padding-top: 32px;

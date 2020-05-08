@@ -13,14 +13,14 @@ justify-content: start;
   }
 }
 
-@media all and (min-width: 471px) and (max-width: 768px) {
+@media all and (min-width: 422px) and (max-width: 768px) {
   .autor__about{
     margin-left: 16px;
     margin-bottom: 48px;
   }
 }
 
-@media all and (max-width: 470px){
+@media all and (max-width: 421px){
   .autor__about{
     width: 288px;
     margin-left: 16px;

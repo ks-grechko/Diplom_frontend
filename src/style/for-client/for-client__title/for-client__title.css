@@ -16,6 +16,11 @@ color: #1A1B22;
     line-height: 34px;
   }
 }
+@media all and (min-width: 769px) and (max-width: 961px) {
+  .or-client__title{
+    margin-left: 20px;
+  }
+}
 
 @media all and (max-width: 320px){
   .for-client__title{
