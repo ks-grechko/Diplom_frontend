@@ -2,8 +2,10 @@
 @import url(./preloader-place__text/preloader-place__text.css);
 
 .preloader-place{
-  min-height: 282px;
-  display: flex;
+  /* min-height: 282px; */
+
+  margin-top: -80px;
+  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;

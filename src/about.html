@@ -66,27 +66,45 @@
           <img class="reviews__header_arrow" src="<%=require('./images/arrow.png').default%>" alt="черная стрелка">
         </div>
       </article>
-      <img class="reviews__arrow-left" src="<%=require('./images/left.png').default%>" alt="белая стрелка влево на черном круглом фоне">
-      <img class="reviews__arrow-right" src="<%=require('./images/right.png').default%>" alt="белая стрелка вправо на черном круглом фоне">
-      <article class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
-        <div class="main-carousel__carousel-cell">
-          <p class="carousel-cell__date">14 августа, 2019</p>
-          <div class="carousel-cell__autor">
-            <img class="carousel-cell__autor_photo" src="<%=require('./images/comment-photo.png').default%>" alt="фото автора комментария">
-            <div class="carousel-cell__autor_about">
-              <h3 class="carousel-cell__autor_about_name">Антон Долинин</h3>
-              <h4 class="carousel-cell__autor_about_email">anton@yandex.ru</h4>
-            </div>
+      <!-- <img class="reviews__arrow-left" src="<%=require('./images/left.png').default%>" alt="белая стрелка влево на черном круглом фоне">
+      <img class="reviews__arrow-right" src="<%=require('./images/right.png').default%>" alt="белая стрелка вправо на черном круглом фоне"> -->
+      <article class="history__commits">
+      <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+          <div class="glide__slides">
+            <!-- <div class="glide__slide">
+              <div class="glide__slide_container">
+                <p class="glide__slide__date">14 августа, 2019</p>
+                <div class="glide__slide__autor">
+                  <img class="glide__slide__autor_photo" src="<%=require('./images/comment-photo.png').default%>" alt="фото автора комментария">
+                  <div class="glide__slide__autor_about">
+                    <h3 class="glide__slide__autor_about_name">Антон Долинин</h3>
+                    <h4 class="glide__slide__autor_about_email">anton@yandex.ru</h4>
+                  </div>
+                </div>
+                <p class="glide__slide__comment">Emmet (formerly Zen Coding) is a web- developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
+              </div>
+            </div> -->
           </div>
-          <p class="carousel-cell__comment">Emmet (formerly Zen Coding) is a web- developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
         </div>
-      </article>
+        <div class="glide__arrows" data-glide-el="controls">
+          <button class="glide__arrow glide__arrow--left" data-glide-dir="<">&#60;
+          </button>
+          <button class="glide__arrow glide__arrow--right" data-glide-dir=">">&#62;</button>
+        </div>
+        <div class="glide__bullets" data-glide-el="controls[nav]">
+          <button class="glide__bullet" data-glide-dir="=0"></button>
+          <button class="glide__bullet" data-glide-dir="=1"></button>
+          <button class="glide__bullet" data-glide-dir="=2"></button>
+        </div>
+      </div> 
+      </article> 
     </section>
                                                       <!-- Подвал страницы -->
     <footer class="footer">
         <p class="footer__author">&copy;2020 Гречко Ксения</p>
         <ul class="footer__list">
-        <li class="footer__list_items"><a href="main.html" class="footer__link link">Главная</a> </li>
+        <li class="footer__list_items"><a href="index.html" class="footer__link link">Главная</a> </li>
         <li class="footer__list_items"><a href="about.html" class="footer__link link">О проекте</a></li>
         <li class="footer__list_items"><a href="https://praktikum.yandex.ru" target="_blank" class="footer__link link">Яндекс.Практикум</a></li>
         </ul>

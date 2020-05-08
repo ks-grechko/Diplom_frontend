@@ -24,61 +24,53 @@
           <a href="paper.html" class="link analytics__navigation_current-page">/ Аналитика</a>
         </span>
       </h3>
-      <h1 class="analytics__title">Вы спросили: «Путешествия»</h1>
+      <h1 class="analytics__title">Вы спросили: <span class="analytics__title_request"></span></h1>
       <h2 class="analytics__for-week">Новостей за неделю:
-        <span class="analytics__for-week_count">34 324</span>
+        <span class="analytics__for-week_count analytics__for-week_number"></span>
       </h2>
       <h2 class="analytics__for-week">Упоминаний в загаловках:
-        <span class="analytics__for-week_count">235</span>
+        <span class="analytics__for-week_count analytics__for-week_headers"></span>
       </h2>
     </section>
                                               <!-- Блок "Аналитика по дням" -->
     <section class="expanded-analytics">
       <h2  class="expanded-analytics__title">Аналитика по дням</h2>
+      <div class="expanded-analytics_diagram">
       <article class="expanded-analytics__params">
-        <h4 class="expanded-analytics__params_date">Дата (август)</h4>
+        <h4 class="expanded-analytics__params_date">Дата <span class="expanded-analytics__params_date_data"></span></h4>
         <h4 class="expanded-analytics__params_number">Кол-во упоминаний</h4>
       </article>
       <article  class="expanded-analytics__range">
-        <p class="expanded-analytics__range_number_first">0</p>
+        <p class="expanded-analytics__range_number">0</p>
         <p class="expanded-analytics__range_number">25</p>
         <p class="expanded-analytics__range_number">50</p>
         <p class="expanded-analytics__range_number">75</p>
         <p class="expanded-analytics__range_number">100</p>
       </article>
-      <div class="expanded-analytics__chart">
-        <article class="expanded-analytics__chart_weekday">
-          <p class="expanded-analytics__chart_weekday_day">19, пн</p>
-          <p class="expanded-analytics__chart_weekday_day">20, вт</p>
-          <p class="expanded-analytics__chart_weekday_day">21, ср</p>
-          <p class="expanded-analytics__chart_weekday_day">22, чт</p>
-          <p class="expanded-analytics__chart_weekday_day">23, пт</p>
-          <p class="expanded-analytics__chart_weekday_day">24, сб</p>
-          <p class="expanded-analytics__chart_weekday_day">25, вс</p>
-        </article>
-        <article class="expanded-analytics__chart_scales">
-          <div class="expanded-analytics__chart_scales_scale">15</div>
-          <div class="expanded-analytics__chart_scales_scale">15</div>
-          <div class="expanded-analytics__chart_scales_scale">15</div>
-          <div class="expanded-analytics__chart_scales_scale">15</div>
-          <div class="expanded-analytics__chart_scales_scale">15</div>
-          <div class="expanded-analytics__chart_scales_scale">15</div>
-          <div class="expanded-analytics__chart_scales_scale">15</div>
-        </article>
-      </div>
-      <article  class="expanded-analytics__range-footer">
-        <p class="expanded-analytics__range-footer_first">0</p>
-        <p class="expanded-analytics__range-footer_number">25</p>
-        <p class="expanded-analytics__range-footer_number">50</p>
-        <p class="expanded-analytics__range-footer_number">75</p>
-        <p class="expanded-analytics__range-footer_number">100</p>
+      <article class="expanded-analytics__chart">
+        <!-- <div class="expanded-analytics__chart_item">
+          <p class="expanded-analytics__chart_item_day"></p>
+          <div class="expanded-analytics__chart_item_data">
+            <div class="expanded-analytics__chart_item_data_scale">
+              <p class="expanded-analytics__chart_item_data_number"></p>
+            </div>
+          </div>
+        </div> -->
       </article>
+      <article  class="expanded-analytics__range">
+        <p class="expanded-analytics__range_number">0</p>
+        <p class="expanded-analytics__range_number">25</p>
+        <p class="expanded-analytics__range_number">50</p>
+        <p class="expanded-analytics__range_number">75</p>
+        <p class="expanded-analytics__range_number">100</p>
+      </article>
+    </div>
     </section>
                                                       <!-- Подвал страницы -->
     <footer class="footer">
         <p class="footer__author">&copy;2020 Гречко Ксения</p>
         <ul class="footer__list">
-          <li class="footer__list_items"><a href="main.html" class="footer__link link">Главная</a> </li>
+          <li class="footer__list_items"><a href="index.html" class="footer__link link">Главная</a> </li>
           <li class="footer__list_items"><a href="about.html" class="footer__link link">О проекте</a></li>
           <li class="footer__list_items"><a href="https://praktikum.yandex.ru" target="_blank" class="footer__link link">Яндекс.Практикум</a></li>
         </ul>

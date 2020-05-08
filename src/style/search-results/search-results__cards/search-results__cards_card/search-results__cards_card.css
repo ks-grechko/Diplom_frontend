@@ -3,20 +3,21 @@
 @import url(./search-results__cards_card_title/search-results__cards_card_title.css);
 @import url(./search-results__cards_card_text/search-results__cards_card_text.css);
 @import url(./search-results__cards_card_source/search-results__cards_card_source.css);
-
+@import url(./search-results__cards-url/search-results__cards-url.css);
 
 .search-results__cards_card{
-  width: 400px;
-  height: 576px;
-  margin-bottom: 16px;
-  margin-right: 16px;
-  background: #FFFFFF;
-  border-radius: 16px;
+  max-width: 400px;
+  max-height: 576px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+  text-decoration: none;
+  background-color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
 }
 
-@media all and (min-width: 320px) and (max-width: 768px) {
-  .search-results__cards_card{
-    width: 224px;
-    height: 420px;
-  }
+.search-results__cards_card:hover {
+  transform: translateY(-5px);
 }

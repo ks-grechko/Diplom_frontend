@@ -1,0 +1,11 @@
+@import url(./expanded-analytics__chart/expanded-analytics__chart.css);
+@import url(./expanded-analytics__params/expanded-analytics__params.css);
+@import url(./expanded-analytics__range-footer/expanded-analytics__range-footer.css);
+@import url(./expanded-analytics__range/expanded-analytics__range.css);
+@import url(./expanded-analytics__title/expanded-analytics__title.css);
+
+
+.expanded-analytics_diagram {
+    padding-bottom: 116px;
+    box-sizing: border-box;
+}

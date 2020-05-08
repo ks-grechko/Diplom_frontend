@@ -21,10 +21,53 @@
       <h1 class="search-panel__title">Что в мире <br>творится?</h1>
       <h2 class="search-panel__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</h2>
       <form class="search-panel__search">
-        <input class="search-panel__search_search-input" type="search" name="search" id="search" placeholder="Введите тему новости" pattern="^[\wа-яА-Я]{1,}" required>
+        <div class="search-panel__search_container">
+        <input class="search-panel__search_search-input" type="text" name="search" placeholder="Введите тему новости" required>
+        <span class="popup__error"></span>
+      </div>
         <button name="search-button" class="search-panel__search_search-button">Искать</button>
       </form>
     </section>
+                                    <!-- Прелоудер -->
+    <section class="preloader-place">
+      <i class="circle-preloader"></i>
+      <p class="preloader-place__text">Идет поиск новостей...</p>
+    </section>
+                                    <!-- "Ничего не найдено" -->
+      <section class="preloader-result">
+        <img class="preloader-result__img" src="<%=require('./images/not-found.png').default%>" alt="изображение лупы и внутри нее грустный смайлик">
+        <h3 class="preloader-result__title">Ничего не найдено</h3>
+        <h4 class="preloader-result__subtitle">К сожалению по вашему запросу ничего не найдено.</h4>
+      </section>
+      <section class="error-server">
+        <p class="error-server__message">
+          Во время запроса произошла ошибка. Возможно, проблема с соединением
+          или сервер недоступен. Подождите немного и попробуйте ещё раз
+        </p>
+      </section>
+                                      <!-- Результат поиска -->
+      <section class="search-results">
+        <article class="search-results__header">
+          <h3 class="search-results__header_title">Результаты поиска</h3>
+          <div class="search-results__header_subtitle">
+            <a class="search-results__header_subtitle_link link" href="paper.html" target="_blank">Посмотреть аналитику</a>
+            <a class="link" href="#"><img class="reviews__header_arrow" src="<%=require('./images/arrow.png').default%>" alt="черная стрелка"></a>
+          </div>
+        </article>
+        <article class="search-results__cards">
+          <!-- <a class="search-results__cards-url" target="_blank" href="">
+          <div class="search-results__cards_card">
+            <img class="search-results__cards_card_img" src="" alt="">
+            <p class="search-results__cards_card_date"></p>
+            <h4 class="search-results__cards_card_title"></h4>
+            <p class="search-results__cards_card_text"></p>
+            <p class="search-results__cards_card_source"></p>
+          </div>
+        </a> -->
+        </article>
+        <button class="search-results__button">Показать еще</button>
+      </section>
+
                                               <!-- Блок "О авторе" -->
     <section class="autor">
       <img class="author__photo" alt="фото автора страницы" src="<%=require('./images/autor.png').default%>">
@@ -37,7 +80,7 @@
     <footer class="footer">
       <p class="footer__author">&copy;2020 Гречко Ксения</p>
       <ul class="footer__list">
-        <li class="footer__list_items"><a href="main.html" class="footer__link link">Главная</a> </li>
+        <li class="footer__list_items"><a href="index.html" class="footer__link link">Главная</a> </li>
         <li class="footer__list_items"><a href="about.html" class="footer__link link">О проекте</a></li>
         <li class="footer__list_items"><a href="https://praktikum.yandex.ru" target="_blank" class="footer__link link">Яндекс.Практикум</a></li>
       </ul>

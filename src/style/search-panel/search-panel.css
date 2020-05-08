@@ -2,7 +2,7 @@
 @import url(./search-panel__title/search-panel__title.css);
 @import url(./search-panel__subtitle/search-panel__subtitle.css);
 @import url(./search-panel__search/search-panel__search.css);
-
+@import url(./search-panel__search/popup__error/popup__error.css);
 
 .search-panel{
   height: 567px;

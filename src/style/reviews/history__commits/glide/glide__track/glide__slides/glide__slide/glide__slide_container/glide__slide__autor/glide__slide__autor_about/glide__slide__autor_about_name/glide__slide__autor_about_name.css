@@ -1,0 +1,29 @@
+.glide__slide__autor_about_name{
+  height: 30px;
+  margin: 0px;
+  font-family: Roboto Slab Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+  color: #1A1B22;
+}
+
+@media all and (min-width: 769px) and (max-width: 1150px) {
+  .glide__slide__autor_about_name{
+    width: 200px;
+    height: 60px;
+    /* font-size: 20px;
+    line-height: 30px; */
+  }
+}
+
+
+@media all and (min-width: 320px) and (max-width: 768px) {
+  .glide__slide__autor_about_name{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

@@ -1,7 +1,0 @@
-@import url(./carousel-cell__autor_about/carousel-cell__autor_about.css);
-@import url(./carousel-cell__autor_photo/carousel-cell__autor_photo.css);
-
-.carousel-cell__autor{
-display: flex;
-justify-content: center;
-}

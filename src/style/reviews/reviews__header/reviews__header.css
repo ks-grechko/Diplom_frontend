@@ -5,6 +5,7 @@
 margin-left: 104px;
 margin-right: 111px;
 padding-top: 72px;
+margin-bottom: 64px;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -12,7 +13,7 @@ align-items: center;
 
 @media all and (min-width: 320px) and (max-width: 768px) {
   .reviews__header{
-    padding-top: 40px;
+    margin-top: 40px;
     margin-left: 40px;
     margin-right: 40px;
   }
@@ -22,5 +23,6 @@ align-items: center;
   .reviews__header{
     margin: 0px 16px  16px 16px;
     padding-top: 32px;
+    margin-top: 16px;
   }
 }

@@ -1,0 +1,26 @@
+@import url(./expanded-analytics__chart_item//expanded-analytics__chart_item.css);
+
+
+
+.expanded-analytics__chart{
+    height: 538px;
+    padding-left: 104px;
+    padding-right: 104px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@media all and (min-width: 321px) and (max-width: 425px) {
+    .expanded-analytics__chart {
+      height: 328px;
+      padding-left: 40px;
+    }
+  }
+  
+  @media all and (max-width: 320px) {
+    .expanded-analytics__chart {
+      padding: 0px 16px 0px 16px;
+    }
+  }

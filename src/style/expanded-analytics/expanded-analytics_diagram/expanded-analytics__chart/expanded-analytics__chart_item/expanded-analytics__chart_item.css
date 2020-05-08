@@ -1,0 +1,11 @@
+@import url(./expanded-analytics__chart_item_day/expanded-analytics__chart_item_day.css);
+@import url(./expanded-analytics__chart_item_data/expanded-analytics__chart_item_data.css);
+
+
+.expanded-analytics__chart_item{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}

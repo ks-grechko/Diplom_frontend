@@ -1,0 +1,24 @@
+@import url(./expanded-analytics__params_date/expanded-analytics__params_date.css);
+@import url(./expanded-analytics__params_number/expanded-analytics__params_number.css);
+
+.expanded-analytics__params{
+    margin: 0px 104px 0px 104px;
+    height: 40px;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #1a1b22;
+
+}
+
+@media all and (min-width: 320px) and (max-width: 768px) {
+    .expanded-analytics__params{
+      margin-left: 40px;
+      width: 104px;
+    }
+  }
+  
+  @media all and (max-width: 320px) {
+    .expanded-analytics__params{
+      margin-left: 16px;
+    }
+  }
