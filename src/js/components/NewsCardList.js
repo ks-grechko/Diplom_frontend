@@ -83,6 +83,7 @@ search (event) {
   this.preloader(true, this.preloaderDiv);
   this.newsInput.setAttribute("disabled", "disabled");
   this.searchButton.setAttribute("disabled", "disabled");
+  localStorage.clear();
 
   this.api
     .getNews(this.newsInput)
@@ -98,6 +99,7 @@ search (event) {
         this.newsBlock.style = "display: block";
       }
       this.news = res.articles;
+      this.post = 0;
       this.addList();
     })
     .catch((err) => {
