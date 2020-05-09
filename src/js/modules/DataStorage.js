@@ -8,7 +8,9 @@ export default class DataStorage {
     localStorage.setItem("request", JSON.stringify(request));
 
   }
-
+  clear(){
+    localStorage.clear();
+  }
 }
 
 
